@@ -91,7 +91,7 @@ But your happiness will last only for one minute, then Cerbo stops publishing mo
 
 **First bar** is **battery status.** 
 * Battery icon shows if battery is charged or discharged. 
-* Percentage is shown as "usable capacity". Battery will cut of at 20 %, so you've got technical reading 20 % - 100 %, which will be displayed as 0 % - 100 % here.
+* Percentage is shown as "usable capacity". Battery will cut off at 20 %, so you've got technical reading 20 % - 100 %, which will be displayed as 0 % - 100 % here.
 * First data item (-2264 W) is power consumed (negative) or charging (positive). 
 * Then estimated energy available (2.6 kWh) and estimated time battery will be able to suply current consumption.
 
