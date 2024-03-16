@@ -96,9 +96,8 @@ But your happiness will last only for one minute, then Cerbo stops publishing mo
 * Then estimated energy available (2.6 kWh) and estimated time battery will be able to suply current consumption.
 
 **Second bar** is status of **solar panels**. 753 W in bar is current power supplied by panels. 
-* 110 V = panels current voltage 
-* 0.5 kWh = today yield 
-* 1374 W = today maximum power supplied
+* First data row contains: 110 V = panels current voltage; 0.5 kWh = today's yield; 1374 W = today maximum power supplied
+* Second data row: yield yesterday / two days back / three days back
 
 **Third bar** is **consumption**. 2997 W consumed at the moment.
 
