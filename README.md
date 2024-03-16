@@ -80,7 +80,7 @@ But your happiness will last only for one minute, then Cerbo stops publishing mo
 * ArduinoJson 6.21.4 
 * Adafruit ST7735 and ST7789 Library 1.10.0
 * Adafruit GFX Library 1.11.8
-* *Adafruit BusIO  1.14.4 
+* Adafruit BusIO  1.14.4 
 
 
 7) Build application, send it into ESP and enjoy.
