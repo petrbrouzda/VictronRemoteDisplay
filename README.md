@@ -31,6 +31,7 @@ Cerbo GX offers WiFi access point. And Cerbo GX has MQTT broker built in - you j
 ESP32 can connect to Cerbo's WiFi, then connect to MQTT broker and get all information about your photovoltaic system. Seems easy.
 
 But when you connect to Cerbo's MQTT and subscribe to all topics ("#"), you've got only one topic with ID of Cerbo's system:
+
 ![](/imgs/empty.png)
 
 You have to read the system ID and publish **keeepalive message**: empty message to topic `R/<system ID>/keepalive` - for example `R/c0619ab33b2f/keepalive`
