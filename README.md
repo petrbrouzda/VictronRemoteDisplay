@@ -36,7 +36,7 @@ But when you connect to Cerbo's MQTT and subscribe to all topics ("#"), you've g
 
 You have to read the system ID and publish **keeepalive message**: empty message to topic `R/<system ID>/keepalive` - for example `R/c0619ab33b2f/keepalive`
 
-After you sent the message, MQTT will magically starts filling with data:
+After you send the message, MQTT will magically starts filling with data:
 ![](/imgs/full.png)
 
 But your happiness will last only for one minute, then Cerbo stops publishing more data until you send another keepalive message. So you have to send keepalive message periodically, every 55 seconds.
