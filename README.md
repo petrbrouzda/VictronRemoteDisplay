@@ -112,7 +112,7 @@ Last line are LEDs on inverter, so:
 
 Application has been tested on only one photovoltaic system - mine. 
 
-It is not generic / universal tool - for example it reads data only for on battery system. If you have more batteries, you will have to change application.
+It is not generic / universal tool - for example it reads data only for one battery module. If you have more batteries, you will have to change application.
 
 
 ## Resources
