@@ -114,6 +114,8 @@ Application has been tested on only one photovoltaic system - mine.
 
 It is not generic / universal tool - for example it reads data only for one battery module. If you have more batteries, you will have to change application.
 
+I'm using it on off-grid system, so it doesn't look for grid consumption/production. 
+
 
 ## Resources
 
