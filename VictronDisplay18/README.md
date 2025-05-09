@@ -9,6 +9,7 @@ Victron photovoltaic systems with Cerbo GX has display module (GX Touch 50, GX T
 I need wifi-connected display with **only** passive function (no configuration changes), and it run in no-internet environment (no connection to Victron VRM cloud).
 
 So I've build this:
+
 ![](/imgs/2024-03-12%2019.46.18.jpg)
 
 It runs basic [ESP32-C3 board](https://s.click.aliexpress.com/e/_DEw2w8v) with [cheap 1.8" SPI display](https://s.click.aliexpress.com/e/_DeaLqWd). Without soldering - by using dupont F-F cables:
@@ -45,6 +46,8 @@ After you send the message, MQTT will magically starts filling with data:
 But your happiness will last only for one minute, then Cerbo stops publishing more data until you send another keepalive message. So you have to send keepalive message periodically, every 55 seconds.
 
 ## How to run it
+
+This is tested on **2.0.x** version of ESP32 core for arduino (version in "board manager" in Arduino IDE). Probably will not run on current 3.0.x versions. Switch board version to 2.0.17 before building it!
 
 1) If your Cerbo is not connected to WiFi: switch on WiFi access point in Cerbo GX.
 
