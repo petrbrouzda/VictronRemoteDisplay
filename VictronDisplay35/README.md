@@ -120,7 +120,7 @@ Variants:
 * First data row contains: 120 V = panels voltage; 0.6 kWh = today's yield; max 357 W = today maximum power supplied
 * Second data row: yield yesterday / two days back / three days back; summary yield during last 31 days
 
-The two charts are displayed:
+Then two charts are displayed:
 * panels power (W) in every minute for the last 3.5 hour
 * daily yield (kWh) for last 31 days
 
@@ -128,7 +128,7 @@ The two charts are displayed:
 
 It is followed by chart of consumed power in every minute for the last 3.5 hours - so you can see that the maximal consumption was 1742 W.
 
-Then three rows of status data are displayed:
+At the bottom three rows of status data are displayed:
 * Temperature of batteries and inverter.
 * WiFi strength; number of messages processed in last minute (as debug information - if connection is somewhat broken, there will be 0/m); display uptime
 * Status LEDs of inverter.
